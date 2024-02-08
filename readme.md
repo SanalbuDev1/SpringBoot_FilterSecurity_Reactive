@@ -4,6 +4,17 @@ Para poder crear filtros de seguridad reactivos debemos utilizar la interfaz ~we
 esta interfaz se encargara de servir como un pipe que filtra el request, response
 de nuestros servicios HTTP
 
+# Generalidades
+-> Webflux
+-> RestController con Mono
+-> Servidor Netty port:8080
+
+# Servicios expuestos
+/hola
+/adios
+
+````
+
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -23,3 +34,5 @@ web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2024-02-07T21:10:52.339-05:00  INFO 21712 --- [  restartedMain] c.filtroseguridad.demo.DemoApplication   : Started DemoApplication in 2.793 seconds (process running for 3.733)
 Filtro de seguridad
 Servicio REST
+
+````
